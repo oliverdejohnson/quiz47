@@ -1,0 +1,16 @@
+C:\KBL\Quiz47\Quiz47\bin\Debug\Quiz47.exe
+C:\KBL\Quiz47\Quiz47\bin\Debug\Quiz47.pdb
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.csprojResolveAssemblyReference.cache
+C:\KBL\Quiz47\Quiz47\obj\Debug\MainWindow.baml
+C:\KBL\Quiz47\Quiz47\obj\Debug\MainWindow.g.cs
+C:\KBL\Quiz47\Quiz47\obj\Debug\App.g.cs
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47_MarkupCompile.cache
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.g.resources
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.Properties.Resources.resources
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.csproj.GenerateResource.Cache
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.exe
+C:\KBL\Quiz47\Quiz47\obj\Debug\Quiz47.pdb
+C:\KBL\Quiz47\Quiz47\obj\Debug\TestWindow.baml
+C:\KBL\Quiz47\Quiz47\obj\Debug\TestWindow.g.cs
+C:\KBL\Quiz47\Quiz47\obj\Debug\Editor.baml
+C:\KBL\Quiz47\Quiz47\obj\Debug\Editor.g.cs
