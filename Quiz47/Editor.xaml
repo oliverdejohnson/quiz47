@@ -5,8 +5,16 @@
     <DockPanel>
         <Menu x:Name="menu"
 DockPanel.Dock="Top" />
-        <ToolBarTray x:Name="toolbar"
-DockPanel.Dock="Top" />
+        <ToolBarTray>
+            <ToolBar>
+                <Button ToolTip="Open">
+                    <Image Source="Icons/folder_page.p" />
+                </Button>
+                <Button ToolTip="Save">
+                    <Image Source="Icons/page_save.png" />
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
         <StatusBar DockPanel.Dock="Bottom">
             <TextBlock x:Name="status" />
         </StatusBar>

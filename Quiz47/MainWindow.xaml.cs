@@ -23,5 +23,11 @@ namespace Quiz47
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+            QuizWindow quiz = new QuizWindow();
+            quiz.Show();
+        }
     }
 }

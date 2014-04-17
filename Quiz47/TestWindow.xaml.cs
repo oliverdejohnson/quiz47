@@ -25,7 +25,8 @@ namespace Quiz47
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Saved Successfully", "Save");
+            string name = firstName.Text;
+            MessageBox.Show(name+ " Saved Successfully", "Save");
         }
     }
 }

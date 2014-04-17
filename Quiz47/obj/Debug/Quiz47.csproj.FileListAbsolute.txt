@@ -14,3 +14,8 @@ C:\KBL\Quiz47\Quiz47\obj\Debug\TestWindow.baml
 C:\KBL\Quiz47\Quiz47\obj\Debug\TestWindow.g.cs
 C:\KBL\Quiz47\Quiz47\obj\Debug\Editor.baml
 C:\KBL\Quiz47\Quiz47\obj\Debug\Editor.g.cs
+C:\KBL\Quiz47\Quiz47\obj\Debug\QuizWindow.baml
+C:\KBL\Quiz47\Quiz47\obj\Debug\QuizWindow.g.cs
+C:\KBL\Quiz47\Quiz47\bin\Debug\System.Data.SQLite.dll
+C:\KBL\Quiz47\Quiz47\bin\Debug\System.Data.SQLite.pdb
+C:\KBL\Quiz47\Quiz47\bin\Debug\Quiz47.exe.config

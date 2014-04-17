@@ -1,0 +1,60 @@
+﻿<Window x:Class="Quiz47.QuizWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Quiz47" Height="800" Width="600"
+        WindowStyle="SingleBorderWindow"  ResizeMode="NoResize"  
+    WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid Background="BlueViolet"  >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+<Border 
+   
+CornerRadius="6"
+BorderThickness="1"
+BorderBrush="Gray"
+Background="GreenYellow"
+Padding="8"
+Margin="0 0 0 8">
+            <TextBlock x:Name="timer"
+Grid.Column="1" Text="00:00:00" FontSize="14" />
+            
+        </Border>
+        <Button  Grid.Column="1" Content="SUBMIT" Width="100" Click="Submit_Click_1" Name="Submit"></Button>
+        <WrapPanel Grid.Row="1">
+            <Label Content="QUESTION:" FontSize="14" FontWeight="Bold" />
+            <Label Content="1" FontSize="14" FontWeight="Bold" Name="qno" />
+          </WrapPanel>
+        <TextBlock Grid.Row="1" Grid.Column="2" Margin="20 10 10 10" 
+                   FontSize="18" FontWeight="Bold" Name="txtquestion" TextWrapping="Wrap"
+                   Text="Who is the mother of Jesus Christ?"
+        />
+        <Label Grid.Row="2" Content="OPTIONS:" FontSize="14" FontWeight="Bold" />
+        <StackPanel Grid.Row="2" Grid.Column="2" Name="option">
+            <RadioButton GroupName="Option" Name="opta" Margin="10" FontSize="14" FontWeight="Bold" >Mary</RadioButton>
+            <RadioButton GroupName="Option" Name="optb" Margin="10" FontSize="14" FontWeight="Bold">Martha</RadioButton>
+            <RadioButton GroupName="Option" Name="optc" Margin="10" FontSize="14" FontWeight="Bold">Ruth</RadioButton>
+            <RadioButton GroupName="Option" Name="optd" Margin="10" FontSize="14" FontWeight="Bold">Esther</RadioButton>
+        </StackPanel>
+        <WrapPanel Grid.Row="3" Grid.Column="2">
+            <Button  Content="PREVIOUS" Name="previous" Margin="20" Width="100" Height="30" Click="previous_Click_1"></Button>
+            <Button   Content="NEXT" Name="next"  Margin="20" Width="100" Height="30" HorizontalAlignment="Right" Click="next_Click_1"></Button>
+        </WrapPanel>
+        <StackPanel Grid.Row="4" Grid.Column="2" Margin="50 0 0 0">
+            <TextBlock Name="txttotalquestion" Margin="10" FontWeight="Bold" FontSize="16" ></TextBlock>
+            <TextBlock Name="txttotalanswered" Margin="10" FontWeight="Bold" FontSize="16" ></TextBlock>
+            <TextBlock Name="txttotalcorrect" Margin="10" FontWeight="Bold" FontSize="16" Foreground="Green"></TextBlock>
+            <TextBlock Name="txttotalwrong" Margin="10" FontWeight="Bold" FontSize="16" Foreground="Red"></TextBlock>
+            <TextBlock Name="txtpercentage" Margin="10" FontWeight="Bold" FontSize="16"></TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>
